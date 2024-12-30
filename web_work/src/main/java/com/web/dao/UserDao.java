@@ -12,4 +12,7 @@ public interface UserDao {
     List<User> SelectAll();
     @Insert("INSERT into users(phone, username, password, role) values (#{phone},#{username},#{password},#{role})")
     void Add(@Param("phone") String phone,@Param("username") String username,@Param("password") String password,@Param("role") String role);
+    // 根据用户名查询用户
+    @Select("SELECT * FROM users WHERE username = #{username}")
+    User findByUsername(String username);
 }

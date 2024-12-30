@@ -1,4 +1,3 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored="false" %>
@@ -9,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登录界面</title>
-    <link rel="stylesheet" href="../css/login_style.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/login.css">
     <link rel="stylesheet" href="test.css/iconfont.css">
     <!-- <link rel="stylesheet" href="home_style.css"> -->
 
@@ -26,17 +25,23 @@
         <!-- 登录界面 -->
         <div class="input1">
             <form method="post" action="/web_work/login">
-                <input type="text" id="username" name="username" class="username input1" placeholder="用户名">
-                <input type="password" class="password input1" placeholder="密码">
+                <input type="text" name="username" class="username input1" placeholder="用户名" required>
+                <input type="password" name="password" class="password input1" placeholder="密码" required>
                 <input class="btn" type="submit" value="登录">
             </form>
+            <!-- 错误提示 -->
+            <c:if test="${not empty errorMessage}">
+                <div class="mistake" style="color: red;">
+                        ${errorMessage}
+                </div>
+            </c:if>
             <div>${username}</div>
-            <div class="btn">登录</div>
+<%--            <div class="btn">登录</div>--%>
             <div class="mistake"></div>
         </div>
         <!-- 注册界面链接 -->
         <div class="enroll1">
-            还没有账号？<a href="enroll.html">点击注册</a>
+            还没有账号？<a href="register.jsp">点击注册</a>
         </div>
     </div>
 
@@ -61,7 +66,7 @@
     </div>
     <div class="footer_bottom_txt">
         <h4 style="color: white;font-size: 12px;">版权所有：个人信息（计算机221 黄健泓 202210244127，吴楚发
-            202210244131，陈锴202210244132）</h4>
+            202210244131，陈锴202210244132, 衷传广 202210244133）</h4>
         <p class="p">
             增值电信业务经营许可证：浙B2-20110446 出版物网络交易平台服务经营备案证：新出发浙备字第2022003号 营业性演出许可证：浙演经20213300000101
             集邮市场开办者备案：杭集邮备005
@@ -75,49 +80,6 @@
         </p>
     </div>
 </div>
-<script>
-    const user = [{ username: 13430050185, password: 123456 },
-        { username: 13682767866, password: 123457 },
-        { username: 13521179380, password: 123458 }]
-    const username = document.querySelector(".username")
-    const password = document.querySelector(".password")
-    const mistake = document.querySelector(".mistake")
-    let flag = -1
-    let mis = 0
-    username.addEventListener('change', function () {
-        for (let i = 0; i < user.length; i++) {
-            if (user[i].username == username.value) {
-                flag = i;
-            }
-        }
-    })
-    password.addEventListener('change', function () {
-        if (flag == -1) {
-            return
-        }
-        else if (user[flag].password == password.value) {
-            mis = 0
-            return
-        }
-        else {
-            mis = 1
-        }
-    })
-    const btn = document.querySelector(".btn")
-    btn.addEventListener('click', function () {
-        if (mis == 1 || flag == -1) {
-            mistake.innerText = "用户不存在或密码错误"
-        }
-        else {
-            mistake.innerText = ""
-        }
-        if (mis == 0 && flag != -1) {
-            alert("登录成功")
-            window.location.href = "home.html"
-        }
-    })
-
-</script>
 </body>
 
 </html>

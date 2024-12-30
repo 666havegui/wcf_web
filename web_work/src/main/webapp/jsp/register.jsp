@@ -52,7 +52,7 @@
             </form>
 
         </div>
-        <div class="login">已有账号？去<a href="login.html">登录</a></div>
+        <div class="login">已有账号？去<a href="login.jsp">登录</a></div>
     </div>
 </div>
 <div class="footer_bottom">
@@ -74,7 +74,7 @@
     </div>
     <div class="footer_bottom_txt">
         <h4 style="color: white;font-size: 12px;">版权所有：个人信息（计算机221 黄健泓 202210244127，吴楚发
-            202210244131，陈锴202210244132）</h4>
+            202210244131，陈锴202210244132, 衷传广 202210244133）</h4>
         <p class="p">
             增值电信业务经营许可证：浙B2-20110446 出版物网络交易平台服务经营备案证：新出发浙备字第2022003号 营业性演出许可证：浙演经20213300000101
             集邮市场开办者备案：杭集邮备005

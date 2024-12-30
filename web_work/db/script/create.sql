@@ -2,7 +2,7 @@ CREATE DATABASE online_shop;
 use online_shop;
 CREATE TABLE users (
                        id INT PRIMARY KEY AUTO_INCREMENT,  -- 用户ID
-                       phone INT NOT NULL,
+                       phone VARCHAR(50) NOT NULL,
                        username VARCHAR(50) NOT NULL,      -- 用户名
                        password VARCHAR(255) NOT NULL,     -- 密码
                        role ENUM('Admin', 'StoreOwner', 'Customer') NOT NULL,  -- 用户角色
@@ -19,8 +19,6 @@ CREATE TABLE orders (
                         updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,  -- 更新时间
                         FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE  -- 外键约束
 );
-
-drop table payments;
 
 CREATE TABLE shops (
                        id INT PRIMARY KEY AUTO_INCREMENT,  -- 店铺ID

@@ -318,3 +318,138 @@
 30-Dec-2024 19:55:09.712 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
 30-Dec-2024 19:55:09.719 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
 30-Dec-2024 19:55:09.721 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在销毁协议处理器 ["http-nio-8080"]
+30-Dec-2024 23:01:13.844 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/11.0.1
+30-Dec-2024 23:01:13.848 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Nov 6 2024 19:08:24 UTC
+30-Dec-2024 23:01:13.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      11.0.1.0
+30-Dec-2024 23:01:13.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+30-Dec-2024 23:01:13.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+30-Dec-2024 23:01:13.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+30-Dec-2024 23:01:13.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-21
+30-Dec-2024 23:01:13.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    21.0.5+9-LTS-239
+30-Dec-2024 23:01:13.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+30-Dec-2024 23:01:13.850 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Codefield\CODE_Java\wcf_web
+30-Dec-2024 23:01:13.850 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\enviroment\apache-tomcat-11.0.1
+30-Dec-2024 23:01:13.856 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Dec-2024 23:01:13.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+30-Dec-2024 23:01:13.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+30-Dec-2024 23:01:13.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Dec-2024 23:01:13.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Dec-2024 23:01:13.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\enviroment\apache-tomcat-11.0.1
+30-Dec-2024 23:01:13.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\Codefield\CODE_Java\wcf_web
+30-Dec-2024 23:01:13.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\Codefield\CODE_Java\wcf_web\temp
+30-Dec-2024 23:01:13.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\Codefield\CODE_Java\wcf_web\conf\logging.properties
+30-Dec-2024 23:01:13.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Dec-2024 23:01:13.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3\lib\idea_rt.jar=13706:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3\bin
+30-Dec-2024 23:01:13.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+30-Dec-2024 23:01:13.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.stdout.encoding=UTF-8
+30-Dec-2024 23:01:13.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.stderr.encoding=UTF-8
+30-Dec-2024 23:01:13.864 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[2.0.8]。
+30-Dec-2024 23:01:13.872 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.14 4 Jun 2024]
+30-Dec-2024 23:01:14.103 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+30-Dec-2024 23:01:14.117 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[458]毫秒内初始化
+30-Dec-2024 23:01:14.167 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+30-Dec-2024 23:01:14.167 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/11.0.1]
+30-Dec-2024 23:01:14.176 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[D:\Codefield\CODE_Java\wcf_web\conf\Catalina\localhost\web_work.xml]。
+30-Dec-2024 23:01:14.983 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+30-Dec-2024 23:01:15.062 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[D:\Codefield\CODE_Java\wcf_web\conf\Catalina\localhost\web_work.xml]的部署已在[881]ms内完成
+30-Dec-2024 23:01:15.067 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+30-Dec-2024 23:01:15.089 信息 [main] org.apache.catalina.startup.Catalina.start [970]毫秒后服务器启动
+30-Dec-2024 23:10:35.180 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+30-Dec-2024 23:10:35.185 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+30-Dec-2024 23:10:35.194 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+30-Dec-2024 23:10:35.197 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在销毁协议处理器 ["http-nio-8080"]
+30-Dec-2024 23:10:36.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.97
+30-Dec-2024 23:10:36.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Nov 6 2024 19:55:19 UTC
+30-Dec-2024 23:10:36.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.97.0
+30-Dec-2024 23:10:36.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+30-Dec-2024 23:10:36.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+30-Dec-2024 23:10:36.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+30-Dec-2024 23:10:36.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-21
+30-Dec-2024 23:10:36.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    21.0.5+9-LTS-239
+30-Dec-2024 23:10:36.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+30-Dec-2024 23:10:36.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Codefield\CODE_Java\wcf_web
+30-Dec-2024 23:10:36.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\enviroment\apache-tomcat-9.0.97
+30-Dec-2024 23:10:36.588 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Dec-2024 23:10:36.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+30-Dec-2024 23:10:36.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+30-Dec-2024 23:10:36.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Dec-2024 23:10:36.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Dec-2024 23:10:36.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\enviroment\apache-tomcat-9.0.97
+30-Dec-2024 23:10:36.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\Codefield\CODE_Java\wcf_web
+30-Dec-2024 23:10:36.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\Codefield\CODE_Java\wcf_web\temp
+30-Dec-2024 23:10:36.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\Codefield\CODE_Java\wcf_web\conf\logging.properties
+30-Dec-2024 23:10:36.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Dec-2024 23:10:36.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3\lib\idea_rt.jar=14718:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3\bin
+30-Dec-2024 23:10:36.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+30-Dec-2024 23:10:36.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.stdout.encoding=UTF-8
+30-Dec-2024 23:10:36.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.stderr.encoding=UTF-8
+30-Dec-2024 23:10:36.599 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.3.1]。
+30-Dec-2024 23:10:36.599 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+30-Dec-2024 23:10:36.599 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+30-Dec-2024 23:10:36.606 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.14 4 Jun 2024]
+30-Dec-2024 23:10:36.843 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+30-Dec-2024 23:10:36.857 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[500]毫秒内初始化
+30-Dec-2024 23:10:36.898 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+30-Dec-2024 23:10:36.898 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.97]
+30-Dec-2024 23:10:36.904 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[D:\Codefield\CODE_Java\wcf_web\conf\Catalina\localhost\web_work.xml]。
+30-Dec-2024 23:10:37.004 警告 [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [6.1]。将使用默认版本。
+30-Dec-2024 23:10:37.648 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+30-Dec-2024 23:10:37.723 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[D:\Codefield\CODE_Java\wcf_web\conf\Catalina\localhost\web_work.xml]的部署已在[816]ms内完成
+30-Dec-2024 23:10:37.727 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+30-Dec-2024 23:10:37.747 信息 [main] org.apache.catalina.startup.Catalina.start [888]毫秒后服务器启动
+30-Dec-2024 23:12:58.612 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+30-Dec-2024 23:12:58.622 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+30-Dec-2024 23:12:58.638 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [web_work] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+30-Dec-2024 23:12:58.638 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [web_work] 注册了JDBC驱动程序 [org.apache.ibatis.datasource.unpooled.UnpooledDataSource.DriverProxy]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+30-Dec-2024 23:12:58.639 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[web_work]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)]
+30-Dec-2024 23:12:58.645 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+30-Dec-2024 23:12:58.648 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在销毁协议处理器 ["http-nio-8080"]
+30-Dec-2024 23:13:43.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.97
+30-Dec-2024 23:13:43.550 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Nov 6 2024 19:55:19 UTC
+30-Dec-2024 23:13:43.551 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.97.0
+30-Dec-2024 23:13:43.551 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+30-Dec-2024 23:13:43.551 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+30-Dec-2024 23:13:43.551 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+30-Dec-2024 23:13:43.551 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-21
+30-Dec-2024 23:13:43.551 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    21.0.5+9-LTS-239
+30-Dec-2024 23:13:43.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+30-Dec-2024 23:13:43.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\Codefield\CODE_Java\wcf_web
+30-Dec-2024 23:13:43.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\enviroment\apache-tomcat-9.0.97
+30-Dec-2024 23:13:43.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Dec-2024 23:13:43.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+30-Dec-2024 23:13:43.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+30-Dec-2024 23:13:43.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Dec-2024 23:13:43.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\enviroment\apache-tomcat-9.0.97
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\Codefield\CODE_Java\wcf_web
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\Codefield\CODE_Java\wcf_web\temp
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\Codefield\CODE_Java\wcf_web\conf\logging.properties
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3\lib\idea_rt.jar=14793:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3\bin
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.stdout.encoding=UTF-8
+30-Dec-2024 23:13:43.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.stderr.encoding=UTF-8
+30-Dec-2024 23:13:43.561 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.3.1]。
+30-Dec-2024 23:13:43.561 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+30-Dec-2024 23:13:43.562 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+30-Dec-2024 23:13:43.565 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.14 4 Jun 2024]
+30-Dec-2024 23:13:43.781 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+30-Dec-2024 23:13:43.795 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[399]毫秒内初始化
+30-Dec-2024 23:13:43.835 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+30-Dec-2024 23:13:43.836 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.97]
+30-Dec-2024 23:13:43.843 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[D:\Codefield\CODE_Java\wcf_web\conf\Catalina\localhost\web_work.xml]。
+30-Dec-2024 23:13:43.937 警告 [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [6.1]。将使用默认版本。
+30-Dec-2024 23:13:44.544 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+30-Dec-2024 23:13:44.629 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[D:\Codefield\CODE_Java\wcf_web\conf\Catalina\localhost\web_work.xml]的部署已在[782]ms内完成
+30-Dec-2024 23:13:44.634 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+30-Dec-2024 23:13:44.655 信息 [main] org.apache.catalina.startup.Catalina.start [858]毫秒后服务器启动

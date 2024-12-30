@@ -1,6 +1,7 @@
 package com.web.service;
 
 import com.web.dao.UserDao;
+import com.web.domain.User;
 import com.web.util.SqlSessionFactoryUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -15,5 +16,22 @@ public class UserService {
         userDao.Add(phone,username,password,role);
         sqlSession.commit();
         sqlSession.close();
+    }
+
+    // 验证用户名和密码的方法
+    public User authenticate(String username, String password) {
+        SqlSession sqlSession = factory.openSession();
+        try {
+            UserDao userDao = sqlSession.getMapper(UserDao.class);
+            // 根据用户名查询用户
+            User user = userDao.findByUsername(username);
+            // 验证密码
+            if (user != null && user.getPassword().equals(password)) {
+                return user;
+            }
+            return null;
+        } finally {
+            sqlSession.close();
+        }
     }
 }
