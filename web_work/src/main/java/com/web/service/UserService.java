@@ -25,6 +25,7 @@ public class UserService {
             UserDao userDao = sqlSession.getMapper(UserDao.class);
             // 根据用户名查询用户
             User user = userDao.findByUsername(username);
+            System.out.println("11:"+user);
             // 验证密码
             if (user != null && user.getPassword().equals(password)) {
                 return user;
@@ -34,4 +35,13 @@ public class UserService {
             sqlSession.close();
         }
     }
+    public User findByName(String username){
+        SqlSession sqlSession = factory.openSession();
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+        User user = userDao.findByUsername(username);
+        sqlSession.commit();
+        sqlSession.close();
+        return user;
+    }
+
 }

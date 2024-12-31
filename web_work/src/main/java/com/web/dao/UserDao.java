@@ -10,9 +10,9 @@ import java.util.List;
 public interface UserDao {
     @Select("SELECT * FROM users")
     List<User> SelectAll();
-    @Insert("INSERT into users(phone, username, password, role) values (#{phone},#{username},#{password},#{role})")
+    @Insert("INSERT into users(phone, name, password, role) values (#{phone},#{username},#{password},#{role})")
     void Add(@Param("phone") String phone,@Param("username") String username,@Param("password") String password,@Param("role") String role);
     // 根据用户名查询用户
-    @Select("SELECT * FROM users WHERE username = #{username}")
-    User findByUsername(String username);
+    @Select("SELECT * FROM users WHERE name = #{username}")
+    User findByUsername(@Param("username") String username);
 }

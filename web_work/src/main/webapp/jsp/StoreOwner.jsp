@@ -1,52 +1,62 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored="false" %>
+<%
+
+    String path = request.getRequestURI();
+
+    String basePath = request.getScheme() + "://"
+
+            + request.getServerName() + ":" + request.getServerPort()
+
+            + path;
+
+%>
+<base
+        href="<%=basePath%>">
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>登录界面</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/login.css">
-    <link rel="stylesheet" href="../css/test.css/iconfont.css">
-    <!-- <link rel="stylesheet" href="home_style.css"> -->
-
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css" type="text/css">
+    <link rel="stylesheet" href="../css/StoreOwner.css">
 </head>
-
 <body>
-<div class="back">
-    <a href="home.html" class="reback"><i class="iconfont icon-fanhui"></i></a>
-</div>
-<div class="container">
-    <div class="login1">
-        <!-- 标题 -->
-        <div class="header">登录</div>
-        <!-- 登录界面 -->
-        <div class="input1">
-            <form method="post" action="/web_work/login">
-                <input type="text" name="username" class="username input1" placeholder="用户名" required>
-                <input type="password" name="password" class="password input1" placeholder="密码" required>
-                <input class="btn" type="submit" value="登录">
-            </form>
-            <!-- 错误提示 -->
-            <c:if test="${not empty errorMessage}">
-                <div class="mistake" style="color: red;">
-                        ${errorMessage}
-                </div>
-            </c:if>
-            <div>${username}</div>
-<%--            <div class="btn">登录</div>--%>
-            <div class="mistake"></div>
-        </div>
-        <!-- 注册界面链接 -->
-        <div class="enroll1">
-            还没有账号？<a href="register.jsp">点击注册</a>
+<div class="content">
+    <div class="imfor">
+        <div class="owner">
+            <img src="永雏塔菲.png" alt="" class="avatar">
+            <div class="ownname">你好，${user.name}</div>
+            <div class="sale"><a href="newproduct.jsp">上架新品</a></div>
         </div>
     </div>
+    <div class="nav">
+        <div id="wdsjsp" style="background-color: red;color: white;">我的上架商品</div>
+        <div id="gkxdjl" style="background-color: white;color: black;">顾客下单记录</div>
+    </div>
+    <div class="count" id="count">我正在出售的商品(0)</div>
+    <div class="list" id="list">
+        <div>
+            <img src="">
 
+        </div>
+        <div>
+            222222
+        </div>
+    </div>
+    <div class="record" id="record">
+        <div>
+            333333
+        </div>
+        <div>
+            444444
+        </div>
+    </div>
 </div>
-
+<div style="height: 500px;"></div>
 <div class="footer_bottom">
     <div class="footer_bottom_txt">
         <ul>
@@ -81,5 +91,28 @@
     </div>
 </div>
 </body>
+<script>
+    var count = document.getElementById("count")
+    var list = document.getElementById("list")
+    var record = document.getElementById("record")
+    document.getElementById("wdsjsp").addEventListener('click', function () {
+        record.style.display = "none"
+        list.style.display = "block"
+        document.getElementById("wdsjsp").style.backgroundColor = "red"
+        document.getElementById("wdsjsp").style.color = "white"
+        count.style.display = "block"
+        document.getElementById("gkxdjl").style.backgroundColor = "white"
+        document.getElementById("gkxdjl").style.color = "black"
+    })
+    document.getElementById("gkxdjl").addEventListener('click', function () {
+        record.style.display = "block"
+        list.style.display = "none"
+        count.style.display = "none"
+        document.getElementById("wdsjsp").style.backgroundColor = "white"
+        document.getElementById("wdsjsp").style.color = "black"
+        document.getElementById("gkxdjl").style.backgroundColor = "red"
+        document.getElementById("gkxdjl").style.color = "white"
+    })
+</script>
 
 </html>

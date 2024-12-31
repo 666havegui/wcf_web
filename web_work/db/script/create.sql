@@ -3,7 +3,7 @@ use online_shop;
 CREATE TABLE users (
                        id INT PRIMARY KEY AUTO_INCREMENT,  -- 用户ID
                        phone VARCHAR(50) NOT NULL,
-                       username VARCHAR(50) NOT NULL,      -- 用户名
+                       name VARCHAR(50) NOT NULL,      -- 用户名
                        password VARCHAR(255) NOT NULL,     -- 密码
                        role ENUM('Admin', 'StoreOwner', 'Customer') NOT NULL,  -- 用户角色
                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,  -- 创建时间
@@ -35,6 +35,7 @@ CREATE TABLE products (
                           id INT PRIMARY KEY AUTO_INCREMENT,  -- 商品ID
                           shop_id INT NOT NULL,  -- 店铺ID，关联`shops`表
                           name VARCHAR(255) NOT NULL,  -- 商品名称
+                          img LONGBLOB NOT NULL, -- 商品图片
                           price DECIMAL(10, 2) NOT NULL,  -- 商品价格
                           stock INT DEFAULT 0,  -- 商品库存
                           category ENUM('Electronics', 'Clothing', 'Books', 'HomeAppliance','other') DEFAULT 'Other',  -- 商品分类

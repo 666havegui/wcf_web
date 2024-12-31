@@ -8,11 +8,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首页</title>
-    <link rel="stylesheet" href="home_style.css">
-    <link rel="stylesheet" href="screen-outer.css">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="test.css/iconfont.css">
-    <link rel="stylesheet" href="shortcut.css">
+    <link rel="stylesheet" href="../css/home_style.css">
+    <link rel="stylesheet" href="../css/screen-outer.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/test.css/iconfont.css">
+    <link rel="stylesheet" href="../css/shortcut.css">
 </head>
 
 
@@ -22,9 +22,9 @@
     <div class="Nav">
         <div class="fr">
             <ul>
-                <li class="login2">你好,<a href="./jsp/login.jsp">请登录</a></li>
+                <li class="login2">你好,<a href="login.jsp">请登录</a></li>
                 <li></li>
-                <li><a href="./jsp/register.jsp">免费注册</a></li>
+                <li><a href="register.jsp">免费注册</a></li>
                 <li></li>
                 <li><a href="">我的订单</a></li>
                 <li></li>

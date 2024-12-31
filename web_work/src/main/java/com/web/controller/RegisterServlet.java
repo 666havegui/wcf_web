@@ -1,5 +1,6 @@
 package com.web.controller;
 
+import com.web.domain.User;
 import com.web.service.UserService;
 
 import javax.servlet.ServletException;
@@ -18,11 +19,17 @@ public class RegisterServlet extends HttpServlet {
         String phone = req.getParameter("phone");
         String password = req.getParameter("password");
         String role = req.getParameter("role");
-        System.out.println(username);
-        System.out.println(phone);
-        System.out.println(password);
-        System.out.println(role);
         userService.Add(phone,username,password,role);
+        User user = userService.findByName(username);
+        req.getSession().setAttribute("user",user);
+        System.out.println("11:"+user);
+        if (role.equals("StoreOwner")){
+            req.getRequestDispatcher("/createShop").forward(req,resp);
+        }
+        else {
+            resp.sendRedirect("jsp/index.jsp");
+        }
+
     }
 
     @Override
