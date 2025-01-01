@@ -1,0 +1,107 @@
+/* 通用样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc; /* 浅灰背景 */
+    color: #333; /* 深灰文本 */
+}
+
+/* 容器样式 */
+.container {
+    max-width: 600px;
+    margin: 50px auto; /* 居中对齐 */
+    padding: 20px 30px;
+    background-color: white; /* 白色背景 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+    text-align: left; /* 左对齐文本 */
+}
+
+/* 标题样式 */
+.container h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+    border-bottom: 2px solid #e0e0e0; /* 标题下划线 */
+    padding-bottom: 10px;
+}
+
+/* 表单样式 */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dcdde1; /* 边框颜色 */
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* 动画过渡 */
+}
+
+/* 聚焦状态 */
+input:focus,
+textarea:focus {
+    border-color: #3498db; /* 聚焦时边框颜色 */
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3); /* 聚焦时的阴影 */
+    outline: none; /* 去掉默认的聚焦外边框 */
+}
+
+/* 文本域样式 */
+textarea {
+    resize: none; /* 禁用拖拽调整大小 */
+}
+
+/* 按钮样式 */
+button {
+    padding: 12px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* 添加平滑过渡效果 */
+}
+
+/* 保存按钮 */
+.save-button {
+    background-color: #4CAF50; /* 绿色背景 */
+    color: white;
+}
+.save-button:hover {
+    background-color: #45a049; /* 深绿色 */
+    transform: scale(1.05); /* 鼠标悬停时放大 */
+}
+
+/* 取消按钮 */
+.cancel-button {
+    background-color: #e74c3c; /* 红色背景 */
+    color: white;
+    margin-left: 10px;
+}
+.cancel-button:hover {
+    background-color: #c0392b; /* 深红色 */
+    transform: scale(1.05); /* 鼠标悬停时放大 */
+}
+
+/* 表单操作区域 */
+.form-actions {
+    display: flex;
+    justify-content: flex-end; /* 按钮靠右排列 */
+    margin-top: 20px;
+}
+
+.form-actions button + button {
+    margin-left: 10px; /* 按钮之间的间距 */
+}

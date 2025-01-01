@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [01/Jan/2025:19:13:23 +0800] "GET /web_work HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [01/Jan/2025:19:13:23 +0800] "GET /web_work/ HTTP/1.1" 404 713
+0:0:0:0:0:0:0:1 - - [01/Jan/2025:19:13:27 +0800] "GET /web_work/admin HTTP/1.1" 200 5862
+0:0:0:0:0:0:0:1 - - [01/Jan/2025:19:13:27 +0800] "GET /web_work/css/Administer.css HTTP/1.1" 200 1859
+0:0:0:0:0:0:0:1 - - [01/Jan/2025:19:13:30 +0800] "GET /web_work/jsp/editUser.jsp?id=13&name=customer3&phone=13300000006&password=password333 HTTP/1.1" 200 1120
+0:0:0:0:0:0:0:1 - - [01/Jan/2025:19:13:30 +0800] "GET /web_work/css/editUser.css HTTP/1.1" 200 1993
+0:0:0:0:0:0:0:1 - - [01/Jan/2025:19:13:34 +0800] "POST /web_work/user HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [01/Jan/2025:19:13:34 +0800] "GET /web_work/admin HTTP/1.1" 200 5852

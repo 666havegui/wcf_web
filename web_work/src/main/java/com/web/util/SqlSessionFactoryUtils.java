@@ -1,6 +1,7 @@
 package com.web.util;
 
 import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
@@ -25,5 +26,9 @@ public class SqlSessionFactoryUtils {
     }
     public static SqlSessionFactory getSqlSessionFactory(){
         return sqlSessionFactory;
+    }
+
+    public static SqlSession getSession() {
+        return getSqlSessionFactory().openSession();
     }
 }
